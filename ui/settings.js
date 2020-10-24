@@ -1,3 +1,5 @@
+'use strict';
+
 const m = require('mithril');
 const HTML = require('hyperscript-adapter');
 const HTMLModule = require('hyperscript-adapter');
