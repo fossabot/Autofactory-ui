@@ -56,9 +56,11 @@ importers:
   ui:
     dependencies:
       hyperscript-adapter: 7.1.1
+      hyperscript-adapter-modules: 1.1.0_hyperscript-adapter@7.1.1
       mithril: 2.0.4
     specifiers:
       hyperscript-adapter: ^7.1.1
+      hyperscript-adapter-modules: ^1.1.0
       mithril: ^2.0.4
 lockfileVersion: 5.2
 packages:
@@ -2875,6 +2877,14 @@ packages:
       node: '>=8.12.0'
     resolution:
       integrity: sha512-SEQu7vl8KjNL2eoGBLF3+wAjpsNfA9XMlXAYj/3EdaNfAlxKthD1xjEQfGOUhllCGGJVNY34bRr6lPINhNjyZw==
+  /hyperscript-adapter-modules/1.1.0_hyperscript-adapter@7.1.1:
+    dependencies:
+      hyperscript-adapter: 7.1.1
+    dev: false
+    peerDependencies:
+      hyperscript-adapter: '*'
+    resolution:
+      integrity: sha512-rPLoPtPd85+PimM4MtQgPc3Hrf/V23J5AO7WLWRtMPt7qLpxruWO9rRuKlmJd01JZwy6oNBlD7N6PSaW38guyg==
   /hyperscript-adapter/7.1.1:
     dev: false
     resolution:
