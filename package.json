@@ -1,28 +1,8 @@
 {
-  "name": "autofactory-ui",
-  "version": "1.0.0",
-  "description": "A set of UI components for Autofactory",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/iMplode-nZ/autofactory-ui.git"
-  },
-  "keywords": [
-    "Autofactory",
-    "Mithril",
-    "HTML"
-  ],
-  "author": "iMplode-nZ",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/iMplode-nZ/autofactory-ui/issues"
-  },
-  "homepage": "https://github.com/iMplode-nZ/autofactory-ui#readme",
-  "dependencies": {
-    "hyperscript-adapter": "^7.1.1",
-    "mithril": "^2.0.4"
-  }
+    "devDependencies": {
+        "eslint": "^7.12.0",
+        "eslint-config-prettier": "^6.14.0",
+        "eslint-plugin-prettier": "^3.1.4",
+        "prettier": "^2.1.2"
+    }
 }
